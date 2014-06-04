@@ -1,3 +1,5 @@
+// Insertion sort
+// T = O(n^2), S = O(1)
 void insertion_sort(int arr[], int n) {
     for (int i = 1; i < n; i++) {
         int key = arr[i];
